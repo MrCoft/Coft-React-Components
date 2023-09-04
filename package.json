@@ -1,6 +1,5 @@
 {
-  "name": "coft-react-components",
-  "private": true,
+  "name": "@coft/react-components",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -11,15 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "qs": "^6.11.2",
+    "uuid": "^9.0.0"
+  },
+  "peerDependencies": {
     "final-form": "^4.20.10",
     "immer": "^10.0.2",
     "moment": "^2.29.4",
-    "qs": "^6.11.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-final-form": "^6.5.9",
-    "react-use": "^17.4.0",
-    "uuid": "^9.0.0"
+    "react-use": "^17.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.22.15",
@@ -43,9 +44,16 @@
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "final-form": "^4.20.10",
+    "immer": "^10.0.2",
+    "moment": "^2.29.4",
     "patch-package": "^8.0.0",
     "postcss": "^8.4.29",
     "prettier": "^3.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-final-form": "^6.5.9",
+    "react-use": "^17.4.0",
     "storybook": "^7.4.0",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.0.2",
