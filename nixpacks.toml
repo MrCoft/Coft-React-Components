@@ -26,5 +26,5 @@ cmds = ["npm run build-storybook"]
 # copy caddy and build artifacts to a new image and start the caddy web server
 [start]
     runImage = 'ubuntu:20.04' # use a new ubuntu image to run the caddy server in
-    onlyIncludeFiles = ['caddy', 'Caddyfile', 'build'] # copy only the needed files and folders into the new image (react-scripts builds to a 'build' folder)
+    onlyIncludeFiles = ['caddy', 'Caddyfile', 'storybook-static'] # copy only the needed files and folders into the new image (storybook builds to a 'storybook-static' folder)
     cmd = './caddy run --config Caddyfile --adapter caddyfile 2>&1' # start caddy using the Caddyfile config and caddyfile adapter
